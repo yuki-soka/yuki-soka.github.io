@@ -68,7 +68,7 @@ h3 > a{
 }
 
 #go-area1-img{
-    background-image: url(../img/rainforest.png);
+    background-image: url(img/rainforest.png);
     background-size: cover;
     text-decoration: none;
     height: 130px;
@@ -83,7 +83,7 @@ h3 > a{
 }
 
 #go-area2-img{
-    background-image: url(../img/savanna.png);
+    background-image: url(img/savanna.png);
     background-size: cover;
     text-decoration: none;
     height: 130px;
@@ -97,7 +97,7 @@ h3 > a{
 }
 
 #go-area3-img{
-    background-image: url(../img/australia.png);
+    background-image: url(img/australia.png);
     background-size: cover;
     text-decoration: none;
     height: 130px;
