@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+
+#title{
+    text-align: center;
+    font-size: 90px;
+    background-color: skyblue;
+    margin: 0 0 0 0 ;
+    color: black ;
+    background-image: url(../img/zoo.JPG);
+    background-size: cover;
+    height: 700px;
+
+}
+
+#title-text{
+    color: cornsilk;
+    font-size: 100px;
+    background-color: green;
+}
+
+
+#pagetitle-text{
+    text-align: center;
+    margin-top: 30px;
+    background-color: gray;
+}
+
+h3 > a{
+  text-decoration: none;  
+  color: whitesmoke;
+}
+
+
+.guide{
+    float: left;
+    background-color: limegreen;
+    margin: 0 0.25% 0 0.25%;
+    height: 65px;
+    width: 19.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#areaguide{
+    background-color: greenyellow;
+    height: 110px;
+    width: 85%;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaselect{
+    float: left;
+    background-color: green;
+    margin: 0 1.5% 0 1.5%;
+    height: 65px;
+    width: 30%;
+    text-align: center;
+}
+
+#schedule{
+    text-align: center;
+}
+
+.go-area{
+    margin: 0 0.5% 0 0.5%;
+}
+
+.go-area-text{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+#go-area1-img{
+    background-image: url(../img/rainforest.png);
+    background-size: cover;
+    text-decoration: none;
+    height: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 32%;
+    margin: 0 0.5% 0 0.5%;
+
+}
+
+#go-area2-img{
+    background-image: url(../img/savanna.png);
+    background-size: cover;
+    text-decoration: none;
+    height: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 32%;
+    margin: 0 0.5% 0 0.5%;
+}
+
+#go-area3-img{
+    background-image: url(../img/australia.png);
+    background-size: cover;
+    text-decoration: none;
+    height: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 32%;
+    margin: 0 0.5% 0 0.5%;
+}
+
+
+#animalsintroduction{
+    text-align: center;
+}
+
+.animals{
+    float: left;
+    margin-left: 8%;
+}
+
+.Sname{
+    text-align: end;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.concept{
+    font-weight: 600;
+}
+
+.animalname{
+    border-bottom: 3px solid orange;
+    text-align: center;
+}
+
+.animalcategory{
+    clear: both;
+}
+
+.border{
+    clear: both;
+}
+
+
+#area1, #area2, #area3{
+    background-color: greenyellow;
+    text-align: center;
+    color:green;
+}
+
+#elephant, #lion, #tiger, #zebra, #giraffe, #chimpanzee, #koala, #kangaroo{
+    background-color: lemonchiffon;
+     width: 300px;
+}
+
+#access{
+    text-align: center;
+}
+
+#accesstable{
+    float: left;
+    margin: 0 5% 0 5%;
+    width: 40%;
+}
+
+#accessmap{
+    float: left;
+    width: 40%;
+    margin: 0 5% 0 5%;
+    text-align: center;
+}
+
+.accesstitle{
+    background-color: salmon;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+#facilities{
+    text-align: center;
+}
+
+.facility-guide{
+    text-align: center;
+    float: left;
+    width: 25%;
+    color: slategray;
+}
+
+h1{
+    color: blue;
+    font-size: 45px;
+}
+
+input[type="reset"],
+input[type="submit"]{
+    border: 2px solid #0086F9;
+    border-radius: 6px;
+    background: linear-gradient(0deg, skyblue, white);
+    color: black;
+}
+
+
+
+
+
+/* ここからゲーム↓ */
+
+#game{
+    background-color: greenyellow;
+}
+
+#gametitle{
+    text-align: center;
+
+}
+
+#game-animal{
+    text-align: center;
+}
+
+#game-food{
+    background-color: rgb(151, 148, 148);
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+
+.choices-button{
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    font-size: 17px;
+}
+
+.choices-food{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+
+}
+
+
+#choice-tiger{
+    text-align: center;
+}
+
+#result{
+
+    font-size: 40px;
+    padding-top: 28px;
+
+}
+
+#baloon{
+    background-image: url(../img/baloon.png);
+    background-size: 100% 100%;
+    margin: 0 10% 0 10%;
+}
+
+.event-intro{
+    background-color: skyblue;
+}
+
+.event-title{
+    height: 50px;
+    text-align: center;
+    background-color: rgba(65, 105, 225, 0.59);
+    margin: 20px 30% 20px 30%;
+    font-size: 30px;
+}
+
+#event-intoro-guide{
+
+    text-align: center;
+}
