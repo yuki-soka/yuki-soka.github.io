@@ -123,18 +123,7 @@ function feed(food) {
 // });
 
 
-$('#reset').click(function(){
 
-    $('#choice-tiger').show(500);
-    $('#choice-kangaroo').show(500);
-    $('#choice-zebra').show(500);
-    $('#choice-koala').show(500);
-    $('#choice-eucalyptus').show(500);
-    $('#choice-hay').show(500);
-    $('#choice-meat').show(500);
-    $('#game-food').hide(500);
-
-});
 
 
 
